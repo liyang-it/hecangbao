@@ -75,7 +75,7 @@
           <router-link
             :to="item.path"
             class="readmore iconfont icon-jiantou-you"
-            >阅读全文</router-link
+            >전문을 읽다</router-link
           >
         </div>
       </div>

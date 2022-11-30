@@ -3,8 +3,8 @@
     <router-link
       to="/tags/"
       class="title iconfont icon-biaoqian1"
-      title="全部标签"
-    >{{ length === 'all' ? '全部标签' : '热门标签' }}</router-link>
+      title="모든 태그"
+    >{{ length === 'all' ? '모든 태그' : '인기 태그' }}</router-link>
     <div class="tags">
       <template v-for="(item, index) in tags">
         <router-link

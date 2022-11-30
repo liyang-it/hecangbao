@@ -3,8 +3,8 @@
     <router-link
       to="/categories/"
       class="title iconfont icon-wenjianjia"
-      title="全部分类"
-      >{{ length === 'all' ? '全部分类' : '文章分类' }}</router-link
+      title="모든 분류"
+      >{{ length === 'all' ? '모든 분류' : '문장 분류' }}</router-link
     >
 
     <div class="categories">
